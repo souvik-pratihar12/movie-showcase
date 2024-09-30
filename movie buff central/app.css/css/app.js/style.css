@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Page - Harry Potter, Star Wars, MCU</title>
+    <style>
+        /* Apply Netflix-themed background */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/4b74a79f-0e2d-4ed2-8589-c1b3d2677ad3/5b999c5a-6452-4e71-bd70-84b2ed388553/NG-en-20230612-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #fff;
+        }
+
+        /* Dark overlay to improve readability */
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .movie-section {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .movie-section h2 {
+            color: #ff3333;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            margin: 20px 0;
+            border: none;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overlay">
+        <header>
+            <h1>Fan Page - Harry Potter, Star Wars, MCU</h1>
+        </header>
+
+        <div class="content">
+            <!-- Harry Potter Section -->
+            <div class="movie-section">
+                <h2>Harry Potter</h2>
+                <iframe src="https://www.youtube.com/embed/PbdM1db3JbY" 
+                    title="Harry Potter Trailer" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- Star Wars Section -->
+            <div class="movie-section">
+                <h2>Star Wars</h2>
+                <iframe src="https://www.youtube.com/embed/8Qn_spdM5Zg" 
+                    title="Star Wars Trailer" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- Marvel Cinematic Universe Section -->
+            <div class="movie-section">
+                <h2>Marvel Cinematic Universe (MCU)</h2>
+                <iframe src="https://www.youtube.com/embed/ue80QwXMRHg" 
+                    title="Avengers: Endgame Trailer" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Fan Page - Harry Potter, Star Wars, MCU</p>
+        </footer>
+    </div>
+
+</body>
+</html>
